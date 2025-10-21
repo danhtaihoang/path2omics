@@ -38,4 +38,4 @@ This model is permitted solely for academic research purposes. Commercial entiti
 #### 5. Reference
 
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
-Danh-Tai Hoang et al., Path2Omics enhances transcriptomic and methylation prediction accuracy from tumor histopathology, Cancer Research (2025).
+Danh-Tai Hoang et al., **Path2Omics enhances transcriptomic and methylation prediction accuracy from tumor histopathology**, Cancer Research (2025).
