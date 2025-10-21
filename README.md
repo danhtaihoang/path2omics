@@ -7,20 +7,31 @@ Code associated with **Path2Omics enhances transcriptomic and methylation predic
 
 Path2Omics is a deep learning framework that independently predicts gene expression and methylation from histopathology slides across 30 cancer types. Unlike existing approaches that rely solely on Formalin-Fixed and Paraffin-Embedded (FFPE) slides for training, Path2Omics leverages both FFPE and fresh frozen (FF) slides by constructing two separate models and integrating them. Downstream analyses show that the inferred values from Path2Omics are nearly as effective as actual values in predicting patient survival and treatment response.
 Path2Omics comprises three main components:
-(i) Image pre-processing: Each whole slide image is divided into tiles, and Sobel edge detection is applied to select only tiles containing tissue. To minimize staining variation, Macenko’s method is used for color normalization.
-(ii) Feature extraction: A pre-trained pathology foundation model is utilized to extract image features from the selected tiles.
-(iii) Prediction: A multi-layer perceptron regression model is employed to predict gene expression (or DNA methylation) from the extracted features.
+
+* (i) Image pre-processing: Each whole slide image is divided into tiles, and Sobel edge detection is applied to select only tiles containing tissue. To minimize staining variation, Macenko’s method is used for color normalization.
+
+* (ii) Feature extraction: A pre-trained pathology foundation model is utilized to extract image features from the selected tiles.
+
+* (iii) Prediction: A multi-layer perceptron regression model is employed to predict gene expression (or DNA methylation) from the extracted features.
 
 #### 2. Installations
 
 To install Path2Omics, please install the following requirements:
+
 python 3.9.7
+
 numpy 1.20.3
+
 pandas 1.3.4
+
 matplotlib 3.4.3
+
 sklearn 1.2.2
+
 openslide 1.1.2
+
 opencv 4.5.4
+
 torch 1.12.1
 
 #### 3. Path2Omics computational pipeline
