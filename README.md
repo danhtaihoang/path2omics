@@ -1,6 +1,6 @@
 ## Path2Omics
 
-Code associated with *Path2Omics enhances transcriptomic and methylation prediction accuracy from tumor histopathology*, Cancer Research 2025, by Danh-Tai Hoang et al. 
+Code associated with **Path2Omics enhances transcriptomic and methylation prediction accuracy from tumor histopathology**, Cancer Research 2025, by Danh-Tai Hoang et al. 
 
 
 #### 1. Introduction
